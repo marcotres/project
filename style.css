@@ -3,6 +3,22 @@
       src: url('fonts/minecraft.ttf') format('truetype');
     }
     
+
+    @media (max-width: 768px) {
+      body {
+        font-size: 16px;
+        padding: 10px;
+      }
+      header nav a {
+        display: block;
+        margin: 10px 0
+      }
+      .container {
+        width: 100%;
+        padding: 10px;
+      }
+    }
+    
     body {
       font-family: 'minecraft', sans-serif;
       margin: 0;
