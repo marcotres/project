@@ -1,0 +1,50 @@
+    @font-face {
+      font-family: 'minecraft';
+      src: url('fonts/minecraft.ttf') format('truetype');
+    }
+    
+    body {
+      font-family: 'minecraft', sans-serif;
+      margin: 0;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-size: 12px;
+    }
+    header { 
+      text-align: center;
+      background-image: url('sito.png');
+      background-size: cover;
+      background-position: center;
+      padding: 1rem; 
+      border-bottom: 1px solid #30363d; 
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 1rem;
+    }
+    nav a {
+      color: #ffa500;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .content {
+      padding: 2rem;
+    }
+    .section {
+      margin-bottom: 2rem;
+    }
+    footer {
+      background-color: #161b22;
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #30363d;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
