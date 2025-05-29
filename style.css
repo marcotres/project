@@ -48,6 +48,20 @@
     nav a:hover {
       text-decoration: underline;
     }
+    .strumenti-utili a {
+      color: #ffa500;
+      text-decoration: none;
+    }
+    .strumenti-utili a:hover {
+      text-decoration: underline;
+    }
+    .guide a {
+      color: #ffa500;
+      text-decoration: none;
+    }
+    .guide a:hover {
+      text-decoration: underline;
+    }
     .content {
       padding: 2rem;
     }
