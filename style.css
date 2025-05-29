@@ -44,23 +44,29 @@
     nav a {
       color: #ffa500;
       text-decoration: none;
+      display: inline-block;
+      transition: transform 0.2s ease;
     }
     nav a:hover {
-      text-decoration: underline;
+      transform: scale(1.40);
     }
     .strumenti-utili a {
       color: #ffa500;
       text-decoration: none;
+      display: inline-block;
+      transition: transform 0.2s ease;
     }
     .strumenti-utili a:hover {
-      text-decoration: underline;
+      transform: scale(1.05);
     }
     .guide a {
       color: #ffa500;
       text-decoration: none;
+      display: inline-block;
+      transition: transform 0.2s ease;
     }
     .guide a:hover {
-      text-decoration: underline;
+      transform: scale(1.05);
     }
     .content {
       padding: 2rem;
@@ -77,4 +83,13 @@
     ul {
       list-style: none;
       padding-left: 0;
+    }
+    .crediti a:link{
+      color: #ffa500;
+      text-decoration: none;
+      display: inline-block;
+      transition: transform 0.2s ease;
+    }
+    .crediti a:link:hover {
+      transform: scale(1.05);
     }
